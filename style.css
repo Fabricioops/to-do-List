@@ -65,24 +65,33 @@
     background: #2563eb;
   }
   
-  .task-list {
+  .task-input {
     list-style: none;
   }
   
-  .task-list li {
+  .task-input li {
     background: #1f1f1f;
     margin-bottom: 10px;
-    padding: 12px 16px;
+    padding: 10px 10px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .delete-btn {
     background: transparent;
     border: none;
-    color: #ef4444;
+    color: #e7e7e7;
     font-size: 1rem;
     cursor: pointer;
+  }
+  .altera-btn{
+    background: transparent;
+    border: none;
+    color: #e7e7e7;
+    font-size: 1rem;
+    cursor: pointer;
+
   }
